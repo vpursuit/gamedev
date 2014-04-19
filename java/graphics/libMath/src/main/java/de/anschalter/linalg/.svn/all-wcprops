@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/java/!svn/ver/19/projects/gaming/trunk/libMath/src/main/java/de/anschalter/linalg
+END
+FrameMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/java/!svn/ver/3/projects/gaming/trunk/libMath/src/main/java/de/anschalter/linalg/FrameMath.java
+END
+Matrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/java/!svn/ver/3/projects/gaming/trunk/libMath/src/main/java/de/anschalter/linalg/Matrix.java
+END
+Vector3.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/java/!svn/ver/3/projects/gaming/trunk/libMath/src/main/java/de/anschalter/linalg/Vector3.java
+END
+Vector4.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/java/!svn/ver/3/projects/gaming/trunk/libMath/src/main/java/de/anschalter/linalg/Vector4.java
+END
+Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/java/!svn/ver/3/projects/gaming/trunk/libMath/src/main/java/de/anschalter/linalg/Frame.java
+END
+VectorMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/java/!svn/ver/3/projects/gaming/trunk/libMath/src/main/java/de/anschalter/linalg/VectorMath.java
+END
+SpaceAndTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/java/!svn/ver/3/projects/gaming/trunk/libMath/src/main/java/de/anschalter/linalg/SpaceAndTime.java
+END
+MatrixMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/java/!svn/ver/19/projects/gaming/trunk/libMath/src/main/java/de/anschalter/linalg/MatrixMath.java
+END

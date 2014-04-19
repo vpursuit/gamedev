@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>graphics</artifactId>
+		<groupId>de.anschalter</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../graphics</relativePath>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+  <groupId>de.anschalter</groupId>
+  <artifactId>libTime</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+    <name>libTime</name>
+    <url>https://svn.anschalter.de</url>
+</project>

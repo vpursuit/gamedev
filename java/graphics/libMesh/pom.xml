@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>graphics</artifactId>
+		<groupId>de.anschalter</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../graphics</relativePath>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.anschalter</groupId>
+  <artifactId>libMesh</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>libMesh</name>
+  <url>https://svn.anschalter.de</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+  	<dependency>
+  		<groupId>de.anschalter</groupId>
+  		<artifactId>libMath</artifactId>
+  		<version>1.0-SNAPSHOT</version>
+  		<type>jar</type>
+  		<scope>compile</scope>
+  	</dependency>
+  </dependencies>
+</project>

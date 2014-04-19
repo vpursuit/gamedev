@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/java/!svn/ver/4/projects/gaming/trunk/libInput/src/main/java/de/anschalter/dna/framework/input
+END
+IGameAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/java/!svn/ver/3/projects/gaming/trunk/libInput/src/main/java/de/anschalter/dna/framework/input/IGameAction.java
+END
+IInputControllerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/java/!svn/ver/3/projects/gaming/trunk/libInput/src/main/java/de/anschalter/dna/framework/input/IInputControllerListener.java
+END
+GameAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/java/!svn/ver/3/projects/gaming/trunk/libInput/src/main/java/de/anschalter/dna/framework/input/GameAction.java
+END
+IInputController.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/java/!svn/ver/3/projects/gaming/trunk/libInput/src/main/java/de/anschalter/dna/framework/input/IInputController.java
+END
+IControllerEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/java/!svn/ver/3/projects/gaming/trunk/libInput/src/main/java/de/anschalter/dna/framework/input/IControllerEvent.java
+END

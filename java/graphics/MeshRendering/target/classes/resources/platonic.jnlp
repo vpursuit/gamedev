@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://www.evernet.de/webstart" href="platonic.jnlp">
+  <information>
+    <title>Platonic</title>
+    <vendor>evernet.de</vendor>
+    <homepage href="http://www.evernet.de/webstart/simpleblending/" />
+    <description>A beautifull platonic world</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.4+" />
+    <jar href="jplanet.jar" />
+    <property name="sun.java2d.noddraw" value="true"/>
+    <extension name="jogl" href="http://download.java.net/media/jogl/builds/archive/jsr-231-webstart-current/jogl.jnlp" />
+  </resources>
+  <application-desc main-class="jplanet.JPlanetWindow" />
+</jnlp>

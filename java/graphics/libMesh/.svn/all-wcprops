@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/java/!svn/ver/25/projects/gaming/trunk/libMesh
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/java/!svn/ver/18/projects/gaming/trunk/libMesh/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/java/!svn/ver/15/projects/gaming/trunk/libMesh/pom.xml
+END

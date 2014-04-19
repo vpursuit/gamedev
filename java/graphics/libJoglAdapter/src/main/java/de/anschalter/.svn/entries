@@ -1,0 +1,43 @@
+10
+
+dir
+25
+https://sittich@svn.anschalter.de/java/projects/gaming/trunk/libJoglAdapter/src/main/java/de/anschalter
+https://sittich@svn.anschalter.de/java
+
+
+
+2010-09-20T20:43:31.177213Z
+22
+sittich
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+350f08c0-a4cc-11df-9f43-cd2eb39351d4
+
+test
+dir
+
+simulation
+dir
+
+io
+dir
+
+jogl
+dir
+
+util
+dir
+

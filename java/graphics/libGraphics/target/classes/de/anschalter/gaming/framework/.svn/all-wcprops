@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/java/!svn/ver/19/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework
+END
+IGameAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/IGameAction.java
+END
+IGame.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/IGame.java
+END
+IInputControllerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/IInputControllerListener.java
+END
+InputController.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/InputController.java
+END
+IGraphicsDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/IGraphicsDevice.java
+END
+IDrawable.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/IDrawable.java
+END
+IControllerEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/IControllerEvent.java
+END

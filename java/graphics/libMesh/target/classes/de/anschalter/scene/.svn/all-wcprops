@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/java/!svn/ver/25/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/scene
+END
+Appearance.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/scene/Appearance.java
+END
+Shape.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/scene/Shape.java
+END
+OBJLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/java/!svn/ver/25/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/scene/OBJLoader.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/scene/Node.java
+END
+Light.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/scene/Light.java
+END
+World.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/scene/World.java
+END
+Camera.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/java/!svn/ver/19/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/scene/Camera.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/scene/Group.java
+END
+Mesh.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/scene/Mesh.java
+END

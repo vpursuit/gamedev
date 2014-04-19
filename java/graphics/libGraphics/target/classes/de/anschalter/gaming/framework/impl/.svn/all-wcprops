@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/java/!svn/ver/19/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl
+END
+GameShell.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/java/!svn/ver/19/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl/GameShell.java
+END
+SimpleTextPainter.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl/SimpleTextPainter.java
+END
+IAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl/IAI.java
+END
+AbstractPainter.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl/AbstractPainter.java
+END
+Graphics2DDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl/Graphics2DDevice.java
+END
+GameAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/java/!svn/ver/19/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl/GameAction.java
+END
+IGameEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl/IGameEngine.java
+END
+Vect3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl/Vect3D.java
+END
+Game.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl/Game.java
+END
+IDisplayManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl/IDisplayManager.java
+END
+ScreenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/java/!svn/ver/19/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl/ScreenManager.java
+END
+IPainter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/gaming/framework/impl/IPainter.java
+END

@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F7F554F157A5BC3000A4B11 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7F554E157A5BC3000A4B11 /* Accelerate.framework */; };
+		7F7F5554157B776D000A4B11 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7F554E157A5BC3000A4B11 /* Accelerate.framework */; };
+		7F8B3E18157F3ADF0055AE8F /* ANDefaultParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA74C1C155E635C007AD928 /* ANDefaultParticle.m */; };
+		7F8B3E1A157F3ADF0055AE8F /* Physics.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA74BFA155E627A007AD928 /* Physics.m */; };
+		7F8B3E1C157F3ADF0055AE8F /* ANGrainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA74C11155E627A007AD928 /* ANGrainTests.m */; };
+		7F8B3E1F157F3AEC0055AE8F /* ANDefaultParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA74C1C155E635C007AD928 /* ANDefaultParticle.m */; };
+		7F8B3E21157F3AEC0055AE8F /* Physics.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA74BFA155E627A007AD928 /* Physics.m */; };
+		7F8B3E5515814BBE0055AE8F /* ANDefaultParticle.h in Resources */ = {isa = PBXBuildFile; fileRef = 7FA74C1B155E635C007AD928 /* ANDefaultParticle.h */; };
+		7F8B3E5615814BBE0055AE8F /* ANParticle.h in Resources */ = {isa = PBXBuildFile; fileRef = 7F8B3E13157F35370055AE8F /* ANParticle.h */; };
+		7FA74BF5155E627A007AD928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA74BF4155E627A007AD928 /* Foundation.framework */; };
+		7FA74C03155E627A007AD928 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA74C02155E627A007AD928 /* SenTestingKit.framework */; };
+		7FA74C05155E627A007AD928 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA74C04155E627A007AD928 /* UIKit.framework */; };
+		7FA74C06155E627A007AD928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA74BF4155E627A007AD928 /* Foundation.framework */; };
+		7FA74C09155E627A007AD928 /* libPhysics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA74BF1155E627A007AD928 /* libPhysics.a */; };
+		7FA74C0F155E627A007AD928 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FA74C0D155E627A007AD928 /* InfoPlist.strings */; };
+		7FA74C1D155E635C007AD928 /* ANDefaultParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA74C1B155E635C007AD928 /* ANDefaultParticle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FA74C07155E627A007AD928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA74BE8155E6279007AD928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FA74BF0155E627A007AD928;
+			remoteInfo = Physics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F7F554E157A5BC3000A4B11 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7F8B3E13157F35370055AE8F /* ANParticle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANParticle.h; sourceTree = "<group>"; };
+		7F8B3E35158149C60055AE8F /* test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Prefix.pch"; sourceTree = "<group>"; };
+		7F8B3E36158149C60055AE8F /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		7F8B3E37158149C60055AE8F /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		7F8B3E47158149C60055AE8F /* testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTests-Info.plist"; sourceTree = "<group>"; };
+		7F8B3E49158149C60055AE8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F8B3E4B158149C60055AE8F /* testTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testTests.h; sourceTree = "<group>"; };
+		7F8B3E4C158149C60055AE8F /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		7FA74BF1155E627A007AD928 /* libPhysics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPhysics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA74BF4155E627A007AD928 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FA74BF8155E627A007AD928 /* Physics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Physics-Prefix.pch"; sourceTree = "<group>"; };
+		7FA74BF9155E627A007AD928 /* Physics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Physics.h; sourceTree = "<group>"; };
+		7FA74BFA155E627A007AD928 /* Physics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Physics.m; sourceTree = "<group>"; };
+		7FA74C01155E627A007AD928 /* PhysicsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA74C02155E627A007AD928 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7FA74C04155E627A007AD928 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7FA74C0C155E627A007AD928 /* PhysicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhysicsTests-Info.plist"; sourceTree = "<group>"; };
+		7FA74C0E155E627A007AD928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FA74C10155E627A007AD928 /* ANGrainTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANGrainTests.h; sourceTree = "<group>"; };
+		7FA74C11155E627A007AD928 /* ANGrainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANGrainTests.m; sourceTree = "<group>"; };
+		7FA74C1B155E635C007AD928 /* ANDefaultParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANDefaultParticle.h; sourceTree = "<group>"; };
+		7FA74C1C155E635C007AD928 /* ANDefaultParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANDefaultParticle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FA74BEE155E627A007AD928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7F554F157A5BC3000A4B11 /* Accelerate.framework in Frameworks */,
+				7FA74BF5155E627A007AD928 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA74BFD155E627A007AD928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7F5554157B776D000A4B11 /* Accelerate.framework in Frameworks */,
+				7FA74C03155E627A007AD928 /* SenTestingKit.framework in Frameworks */,
+				7FA74C05155E627A007AD928 /* UIKit.framework in Frameworks */,
+				7FA74C06155E627A007AD928 /* Foundation.framework in Frameworks */,
+				7FA74C09155E627A007AD928 /* libPhysics.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F8B3E33158149C60055AE8F /* test */ = {
+			isa = PBXGroup;
+			children = (
+				7F8B3E36158149C60055AE8F /* test.h */,
+				7F8B3E37158149C60055AE8F /* test.m */,
+				7F8B3E34158149C60055AE8F /* Supporting Files */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		7F8B3E34158149C60055AE8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F8B3E35158149C60055AE8F /* test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F8B3E45158149C60055AE8F /* testTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F8B3E4B158149C60055AE8F /* testTests.h */,
+				7F8B3E4C158149C60055AE8F /* testTests.m */,
+				7F8B3E46158149C60055AE8F /* Supporting Files */,
+			);
+			path = testTests;
+			sourceTree = "<group>";
+		};
+		7F8B3E46158149C60055AE8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F8B3E47158149C60055AE8F /* testTests-Info.plist */,
+				7F8B3E48158149C60055AE8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FA74BE6155E6279007AD928 = {
+			isa = PBXGroup;
+			children = (
+				7FA74BF6155E627A007AD928 /* Physics */,
+				7FA74C0A155E627A007AD928 /* PhysicsTests */,
+				7F8B3E33158149C60055AE8F /* test */,
+				7F8B3E45158149C60055AE8F /* testTests */,
+				7FA74BF3155E627A007AD928 /* Frameworks */,
+				7FA74BF2155E627A007AD928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FA74BF2155E627A007AD928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FA74BF1155E627A007AD928 /* libPhysics.a */,
+				7FA74C01155E627A007AD928 /* PhysicsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FA74BF3155E627A007AD928 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F7F554E157A5BC3000A4B11 /* Accelerate.framework */,
+				7FA74BF4155E627A007AD928 /* Foundation.framework */,
+				7FA74C02155E627A007AD928 /* SenTestingKit.framework */,
+				7FA74C04155E627A007AD928 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FA74BF6155E627A007AD928 /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				7FA74C1B155E635C007AD928 /* ANDefaultParticle.h */,
+				7F8B3E13157F35370055AE8F /* ANParticle.h */,
+				7FA74C1C155E635C007AD928 /* ANDefaultParticle.m */,
+				7FA74BF9155E627A007AD928 /* Physics.h */,
+				7FA74BFA155E627A007AD928 /* Physics.m */,
+				7FA74BF7155E627A007AD928 /* Supporting Files */,
+			);
+			path = Physics;
+			sourceTree = "<group>";
+		};
+		7FA74BF7155E627A007AD928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FA74BF8155E627A007AD928 /* Physics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FA74C0A155E627A007AD928 /* PhysicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FA74C10155E627A007AD928 /* ANGrainTests.h */,
+				7FA74C11155E627A007AD928 /* ANGrainTests.m */,
+				7FA74C0B155E627A007AD928 /* Supporting Files */,
+			);
+			path = PhysicsTests;
+			sourceTree = "<group>";
+		};
+		7FA74C0B155E627A007AD928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FA74C0C155E627A007AD928 /* PhysicsTests-Info.plist */,
+				7FA74C0D155E627A007AD928 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7FA74BEF155E627A007AD928 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA74C1D155E635C007AD928 /* ANDefaultParticle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FA74BF0155E627A007AD928 /* Physics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA74C15155E627A007AD928 /* Build configuration list for PBXNativeTarget "Physics" */;
+			buildPhases = (
+				7FA74BED155E627A007AD928 /* Sources */,
+				7FA74BEE155E627A007AD928 /* Frameworks */,
+				7FA74BEF155E627A007AD928 /* Headers */,
+				7F8B3E5415814B9A0055AE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Physics;
+			productName = Physics;
+			productReference = 7FA74BF1155E627A007AD928 /* libPhysics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7FA74C00155E627A007AD928 /* PhysicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA74C18155E627A007AD928 /* Build configuration list for PBXNativeTarget "PhysicsTests" */;
+			buildPhases = (
+				7FA74BFC155E627A007AD928 /* Sources */,
+				7FA74BFD155E627A007AD928 /* Frameworks */,
+				7FA74BFE155E627A007AD928 /* Resources */,
+				7FA74BFF155E627A007AD928 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FA74C08155E627A007AD928 /* PBXTargetDependency */,
+			);
+			name = PhysicsTests;
+			productName = PhysicsTests;
+			productReference = 7FA74C01155E627A007AD928 /* PhysicsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FA74BE8155E6279007AD928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = anschalter.de;
+			};
+			buildConfigurationList = 7FA74BEB155E6279007AD928 /* Build configuration list for PBXProject "Physics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FA74BE6155E6279007AD928;
+			productRefGroup = 7FA74BF2155E627A007AD928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FA74BF0155E627A007AD928 /* Physics */,
+				7FA74C00155E627A007AD928 /* PhysicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F8B3E5415814B9A0055AE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8B3E5515814BBE0055AE8F /* ANDefaultParticle.h in Resources */,
+				7F8B3E5615814BBE0055AE8F /* ANParticle.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA74BFE155E627A007AD928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA74C0F155E627A007AD928 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FA74BFF155E627A007AD928 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FA74BED155E627A007AD928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8B3E1F157F3AEC0055AE8F /* ANDefaultParticle.m in Sources */,
+				7F8B3E21157F3AEC0055AE8F /* Physics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA74BFC155E627A007AD928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8B3E18157F3ADF0055AE8F /* ANDefaultParticle.m in Sources */,
+				7F8B3E1A157F3ADF0055AE8F /* Physics.m in Sources */,
+				7F8B3E1C157F3ADF0055AE8F /* ANGrainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FA74C08155E627A007AD928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FA74BF0155E627A007AD928 /* Physics */;
+			targetProxy = 7FA74C07155E627A007AD928 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F8B3E48158149C60055AE8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8B3E49158149C60055AE8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FA74C0D155E627A007AD928 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FA74C0E155E627A007AD928 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FA74C13155E627A007AD928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FA74C14155E627A007AD928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FA74C16155E627A007AD928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Physics.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		7FA74C17155E627A007AD928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Physics.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		7FA74C19155E627A007AD928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
+				INFOPLIST_FILE = "PhysicsTests/PhysicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7FA74C1A155E627A007AD928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
+				INFOPLIST_FILE = "PhysicsTests/PhysicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FA74BEB155E6279007AD928 /* Build configuration list for PBXProject "Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA74C13155E627A007AD928 /* Debug */,
+				7FA74C14155E627A007AD928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA74C15155E627A007AD928 /* Build configuration list for PBXNativeTarget "Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA74C16155E627A007AD928 /* Debug */,
+				7FA74C17155E627A007AD928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA74C18155E627A007AD928 /* Build configuration list for PBXNativeTarget "PhysicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA74C19155E627A007AD928 /* Debug */,
+				7FA74C1A155E627A007AD928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FA74BE8155E6279007AD928 /* Project object */;
+}

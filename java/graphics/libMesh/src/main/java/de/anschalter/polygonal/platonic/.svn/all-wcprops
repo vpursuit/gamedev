@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/java/!svn/ver/4/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/polygonal/platonic
+END
+Tetrahedron.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/polygonal/platonic/Tetrahedron.java
+END
+Hexahedron.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/polygonal/platonic/Hexahedron.java
+END
+Octahedron.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/polygonal/platonic/Octahedron.java
+END
+Dodekahedron.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/polygonal/platonic/Dodekahedron.java
+END
+Isocahedron.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/polygonal/platonic/Isocahedron.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/java/!svn/ver/4/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/polygonal
+END
+TruncatedCube.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/polygonal/TruncatedCube.java
+END
+Vertex.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/polygonal/Vertex.java
+END
+Face.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/polygonal/Face.java
+END
+Material.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/java/!svn/ver/3/projects/gaming/trunk/libMesh/src/main/java/de/anschalter/polygonal/Material.java
+END

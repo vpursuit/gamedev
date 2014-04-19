@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/java/!svn/ver/19/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/graphics
+END
+Animation.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/graphics/Animation.java
+END
+IPhysicalSimulator.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/graphics/IPhysicalSimulator.java
+END
+DefaultDrawable.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/java/!svn/ver/19/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/graphics/DefaultDrawable.java
+END
+Sprite.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/graphics/Sprite.java
+END
+IAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/graphics/IAnimation.java
+END
+ImageFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/java/!svn/ver/19/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/graphics/ImageFactory.java
+END
+Player.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/java/!svn/ver/3/projects/gaming/trunk/libGraphics/src/main/java/de/anschalter/graphics/Player.java
+END
